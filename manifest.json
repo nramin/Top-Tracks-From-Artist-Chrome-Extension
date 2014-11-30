@@ -1,0 +1,23 @@
+{
+  "name": "Top Tracks From Arist",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Enter an artist to get their most popular tracks.",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Top Tracks From Artist",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": ["*://*.audioscrobbler.com/"]
+}

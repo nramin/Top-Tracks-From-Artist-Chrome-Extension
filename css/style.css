@@ -1,0 +1,57 @@
+#mainPopup {
+	padding: 5px;
+	height: 200px;
+	width: 273px;
+	font-family: Helvetica, Ubuntu, Arial, sans-serif;
+}
+h1 {
+	font-size: 2em;
+}
+#search-artist-field {
+	border: 1px solid #000;
+	padding: 8px;
+	width: 190px;
+}
+#search-artist-button {
+	padding: 8px;
+	background: #FFF;
+	border: 1px solid #000;
+}
+#search-artist-field:focus, #search-artist-button:focus {
+	outline: 0;
+}
+#search-artist-button:focus {
+	background: #000;
+	color: #FFF;
+}
+#loading {
+	background: url('../icons/loading.gif');
+	background-repeat: no-repeat;
+	width: 31px;
+	height: 31px;
+	display: none;
+	margin: auto;
+	margin-top: 22px;
+}
+#top-tracks {
+	margin-top: 18px;
+}
+.row {
+	border-bottom: 1px solid #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#top-tracks .row:first-child {
+	border-top: 1px solid #000;
+}
+#top-tracks .row:last-child {
+	border-bottom: none;
+	margin-bottom: 6px;
+}
+.song-icon {
+	background: url('../icons/song-icon.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	float: right;
+}
